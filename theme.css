@@ -1,0 +1,35 @@
+#outer{
+	border-radius: 8px;
+	margin-top: 80px;							/* calculator body style's */
+	height: 380px;
+	width: 270px;
+	background-color:skyblue;
+	box-shadow: 0px 0px 10px #888888;
+}
+#input1{
+	border-radius: 10px;
+	width: 240px;								/* Display style's */
+	height: 40px;
+	margin-top: 11px;
+	margin-left: 0px;
+	font-size: 30px;
+
+}
+.buttons{
+	height: 50px;
+	width: 50px;
+	box-shadow: 4px 2px 3px #888888;			/* buttons style's */
+	margin-top: 5px;
+	margin-top: 10px;
+	margin-right:10px;
+	border-radius: 5px;
+	cursor: pointer;
+	
+}
+.buttons:hover{
+	box-shadow: 0px 0px 50px red;
+}
+#grid{
+	margin-left: 5px;							/* grid styles for buttons */
+	margin-top: 10px;
+}
